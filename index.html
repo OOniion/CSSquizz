@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Quizz Css</title>
+</head>
+
+ <body>
+
+    <header>
+         <div class="flex-container">
+               <div><a class="nav" href="index.html">Home</a></div>
+               <div><a class="nav" href="quizzhtml.html">HTML Quiz</a></div>
+               <div><a class="nav" href="quizzcss.html">CSS Quiz</a></div>
+               <div><a class="nav" href="quizzjs.html">JS Quiz</a></div> 
+           <div class="search">
+            <input type="text" class="search-input" placeholder="Search">
+           </div>
+         </div>
+    </header>
+ <section class="title">
+      <h1>CSS Quiz</h1>
+ </section>
+ <div class="container description">
+   <div>
+    <p>Welcome to the CSS Quiz! Test your knowledge of Cascading Style Sheets and see how well you understand styling, layouts, and responsive design. Whether you're a beginner or an experienced developer, this quiz will challenge your skills and help you learn something new. Good luck!</p>
+    </div>
+    <div class="quiz-container">
+      <h1>CSS Quiz</h1>
+     <div class="start-container" id="start-container">
+      <button class="start-button"id="start-button">Press start</button>
+     </div>
+      <div id="question-container" class="hidden">
+       <p id="question"></p>
+       <div id="answer-buttons"></div>
+      </div>
+      <button id="next-button" class="hidden">Next</button>
+   </div>
+ <div>
+      <h3>Below, you’ll find useful links to help you learn and improve your CSS skills!</h3>
+ </div>
+ <div>
+    <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics">MDN web docs</a></li>
+        <li><a href="https://www.w3schools.com/css/">W3Schools</a></li>
+        <li><a href="https://css-tricks.com/">CSS-Tricks</a></li>
+        <li><a href="https://www.freecodecamp.org/learn/responsive-web-design/">FreeCodeCamp</a></li>
+        <li><a href="https://www.codecademy.com/learn/learn-css">Codecademy</a></li>
+        
+    </ul>
+ </div>
+ </div>
+ 
+ <footer>
+    <p>© <span id="year"></span> RRE. All rights reserved.</p>
+
+   </footer>
+   <script src="script.js"></script>
+ </body>
+
+</html>
