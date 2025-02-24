@@ -1,0 +1,122 @@
+:root {
+    --main-bg-color: rgb(15, 15, 56);
+}
+
+body {
+    font-family: sans-serif;
+    background-color: var(--main-bg-color);
+    color: white;
+    letter-spacing: .5px;
+    margin: 10px 50px 0 50px;
+    padding: 0 15px;    
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: rgb(1, 1, 28); 
+    font-size: 16px;
+    padding: 0 30px;
+    }
+#nav{
+    padding: 10px;
+    margin: 0px;
+}
+.flex-container > div {
+    display: flex;  
+}
+.search-input {
+    border: 1px solid black;
+    font-size: 16px;
+    padding: 10px 10px;
+    margin: 0px;
+}
+.title{
+   font-size: 40px; 
+   font-weight: bold; 
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(4, 2, 20);
+    padding: 30px;
+}
+.description{
+    font-size: 18px;
+}
+#start-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+#start-button{
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 255, 55);
+    font-weight: bold;
+    border: 1px solid rgb(0, 255, 13);
+    border-radius: 20px;
+    padding: 20px 20px;
+}
+#start-button:hover{
+    background-color: var(--main-bg-color);  
+}
+.hidden{
+    display: none;
+}
+
+h3 {
+    font-size: 24px ;
+}
+li {
+    font-size: 18px;
+}
+footer{
+    font-size: 14px;
+    text-align: center;
+}
+.quiz-container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(4, 2, 20);
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+#question-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+#question{
+    font-size: 24px;
+    font-weight: bold;
+}
+.btn{
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 255, 55);
+    border: 1px solid rgb(0, 255, 13);
+    margin: 20px;
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: var(--main-bg-color);
+}
+#next-button{
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 255, 55);
+    font-weight: bold;
+    border: 1px solid rgb(0, 255, 13);
+    border-radius: 20px;
+    padding: 20px 20px;
+}
+#next-button:hover{
+    background-color: var(--main-bg-color);  
+}
